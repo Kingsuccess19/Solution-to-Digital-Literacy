@@ -1,0 +1,8 @@
+{
+  "name": "DigiLit Africa",
+  "description": "A comprehensive Digital Literacy companion developed by PLP AI Engineering Students from Nigeria, Sierra Leone, and Kenya, featuring AI-powered tutoring, object recognition, and skill assessment.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

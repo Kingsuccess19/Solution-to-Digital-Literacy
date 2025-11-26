@@ -118,10 +118,13 @@ export const CreativeStudio: React.FC = () => {
                                 {mode === 'IMAGE' ? (
                                     <>
                                         <option value="1:1">1:1 (Square)</option>
+                                        <option value="2:3">2:3 (Portrait)</option>
+                                        <option value="3:2">3:2 (Landscape)</option>
                                         <option value="3:4">3:4 (Portrait)</option>
                                         <option value="4:3">4:3 (Landscape)</option>
                                         <option value="9:16">9:16 (Story)</option>
                                         <option value="16:9">16:9 (Wide)</option>
+                                        <option value="21:9">21:9 (Ultrawide)</option>
                                     </>
                                 ) : (
                                     <>

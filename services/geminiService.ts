@@ -237,11 +237,11 @@ export const generateVideo = async (
     }
 }
 
-// 7. Quiz Generation (Flash)
+// 7. Quiz Generation (Flash Lite for speed)
 export const generateSkillQuiz = async (topic: string): Promise<QuizData> => {
   try {
     const response = await ai.models.generateContent({
-      model: MODEL_FLASH,
+      model: MODEL_FLASH_LITE, // Use Flash Lite for fast responses
       contents: `Create a beginner-friendly 5-question multiple choice quiz about: ${topic}.`,
       config: {
         responseMimeType: "application/json",
